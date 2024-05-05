@@ -1,0 +1,25 @@
+/* Estilos CSS */
+.sender-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Esto hace que la imagen sea circular */
+    margin-top: 5px; /* Ajusta la posición de la imagen */
+  }
+  
+  .message {
+    overflow: auto;
+    margin-bottom: 10px;
+  }
+  
+  .message-content {
+    overflow: hidden;
+  }
+  
+  .message.user .message-content {
+    text-align: right;
+  }
+  
+  .message.bot .message-content {
+    text-align: left;
+  }
+  

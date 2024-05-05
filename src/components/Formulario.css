@@ -1,0 +1,60 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem; /* Aumentar el espacio entre elementos */
+    width: 350px; /* Aumentar el ancho del formulario */
+    margin: 0 auto;
+    padding: 2.5rem; /* Aumentar el espacio interno */
+    border: 2px solid #ccc; /* Aumentar el grosor del borde */
+    border-radius: 8px; /* Aumentar el radio de borde */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Aumentar la sombra */
+    background-color: #f9f9f9;
+  }
+  .formulario h1 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #007bff; /* Cambiar el color del texto a azul */
+    font-size: 2.5rem; /* Aumentar el tamaño del texto */
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+    letter-spacing: 2px; /* Aumentar el espaciado entre letras */
+    font-weight: bold; /* Hacer que el texto sea más audaz */
+  }
+  
+  .formulario input[type="text"],
+  .formulario input[type="password"] {
+    width: 100%;
+    padding: 0.8rem; /* Aumentar el espacio interno */
+    margin-bottom: 1.5rem; /* Aumentar el espacio entre inputs */
+    border: 2px solid #ccc; /* Aumentar el grosor del borde */
+    border-radius: 6px; /* Aumentar el radio de borde */
+    transition: border-color 0.3s;
+  }
+  
+  .formulario input[type="text"]:hover,
+  .formulario input[type="password"]:hover {
+    border-color: #007bff;
+  }
+  
+  .formulario button {
+    width: 100%;
+    padding: 0.8rem 1rem; /* Aumentar el espacio interno */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .formulario button:hover {
+    background-color: #0056b3;
+  }
+  
+  .formulario p {
+    color: #ff0000;
+    font-size: 1rem; /* Aumentar el tamaño del texto del mensaje de error */
+  }
+  
+  
+  
