@@ -1,0 +1,21 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohLz++ODEptbY2FgAhsBxF": "utter_no_sabe",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohLz++ODEptZaAKaUlJalF8TDFuE2JBQCFHTbX": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdWZqSWFsbCwDp7BuC": "utter_ayuda",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdWZqSWEvAjNKSktSieIhSXCbEAgBCHDSO": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJbW4IDUlMyWxtjYWAFsRHRE=": "utter_despedida",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJbW4IDUlMyWxloA5pSUlqUXxCOX4TIoFANnTOTs=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCU+F8hOzKmtjQUAtWAeZw==": "utter_salud_mental",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCU+F8hOzKklYFRpSUlqUTyKDgLmxQIABxk9PQ==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhGEhmFhWnxidlAqVrYwHU0x7Y": "utter_sentirse_bien",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhGEhmFhWnxidlAqUJmFVaUpJaFI+qhZCJsQDJvT6Q": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohtQKotzixKD41Nz8ZqLC2NhYAM9UgIQ==": "utter_detect_emotion",
+    "eJyNjUEKgDAMBL+SB4jotV8RKaXuoWBbaaIIxb8bUc96yzKzm6EeDdWlYLPOS8jJUL0Pm1yEoSfMgQVJ3ZVR1AlJoxjCrl12xSJmr+LxMbeKoNgJAi9X50Ja4TkLq3sDTC8yNPRtN/75O578aU2b": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqLY2FgAiGxxa": "utter_saludo",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODGnNCWxqJaAKaUlJalF8WDF+XgMiQUAVr02sg==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BCidXpSYkpqcmZsJ5ObX1sYCAPG5Hyo=": "utter_agradecimiento",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BCidXpSYkpqcmZsJ5ObXEjCstKQktSgeTQ9BM2MBeWM/hg==": "action_listen"
+  }
+}

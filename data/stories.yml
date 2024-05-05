@@ -1,0 +1,52 @@
+version: "3.1"
+
+stories:
+- story: saludo
+  steps:
+  - intent: saludar
+  - action: utter_saludo
+
+- story: Path de Salud Mental
+  steps:
+  - intent: salud_mental
+  - action: utter_salud_mental
+
+- story: Path de Agradecimiento
+  steps:
+  - intent: agradecimiento
+  - action: utter_agradecimiento
+
+- story: Path de Despedida
+  steps:
+  - intent: despedida
+  - action: utter_despedida
+
+- story: Path de Ayuda
+  steps:
+  - intent: ayuda
+  - action: utter_ayuda
+
+- story: Path de Sentirse Bien
+  steps:
+  - intent: sentirse_bien
+  - action: utter_sentirse_bien
+
+- story: Path de No Sabe
+  steps:
+  - intent: no_sabe
+  - action: utter_no_sabe
+
+- story: Usuario se siente ansioso
+  steps:
+  - intent: usuario_Ansiedad
+  - action: action_detect_emotion
+  - intent: usuario_Ansiedad
+  - action: action_emocion_ansiedad_repetida  
+
+- story: Usuario expresa tristeza
+  steps:
+  - intent: expresar_emocion
+    entities:
+      - emocion: triste
+  - action: action_detect_emotion
+

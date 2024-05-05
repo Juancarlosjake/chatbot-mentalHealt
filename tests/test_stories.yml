@@ -1,0 +1,36 @@
+stories:
+- story: Saludo
+  steps:
+  - intent: saludar
+  - action: utter_saludo
+  
+- story: Usuario expresa una emoción y el asistente responde
+  steps:
+  - intent: expresar_emocion
+  - action: action_detect_emotion
+  - intent: affirm
+  - action: utter_agradecimiento
+
+- story: Usuario busca ayuda y el asistente responde
+  steps:
+  - intent: ayuda
+  - action: utter_ayuda
+  - intent: affirm
+  - action: utter_agradecimiento
+
+- story: Usuario menciona que no sabe cómo se siente y el asistente responde
+  steps:
+  - intent: no_sabe
+  - action: utter_no_sabe
+  - intent: deny
+  - action: utter_despedida
+
+- story: Expresar emoción de ansiedad
+  steps:
+  - intent: expresar_emocion
+    entities:
+    - emocion: "Ansioso"
+  - action: action_detect_emotion
+  - action: utter_action_detect_emotion
+  - action: action_perform_calm_exercises
+  - action: utter_calm_exercises

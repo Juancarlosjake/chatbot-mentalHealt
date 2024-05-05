@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+- intent: saludar
+  examples: |
+    - hola
+    - ¡Hola!
+    - Buenas
+    - Saludos
+    - ¿Cómo estás?
+
+- intent: salud_mental
+  examples: |
+    - Necesito ayuda con mi salud mental
+    - Me siento deprimido
+    - ¿Cómo puedo manejar el estrés?
+    - Quiero hablar sobre mis emociones
+    - Tengo ansiedad y no sé qué hacer
+    - Siento que la vida no tiene sentido
+    - Estoy lidiando con la pérdida de un ser querido
+    - ¿Cómo puedo mejorar mi bienestar emocional?
+
+- intent: expresar_emocion
+  examples: |
+    - Me siento muy [feliz](emocion) hoy
+    - Estoy [emocionado](emocion) por el futuro
+    - Me siento [triste](emocion) últimamente
+    - Estoy [enojado](emocion) por lo que sucedió
+    - Me siento agradecido por el apoyo que tengo
+    - Hoy me siento en calma
+    - Hoy me siento triste
+    - El dia de hoy me siento feliz
+
+- intent: usuario_Ansiedad
+  examples: | 
+    - Me siento bastante ansioso en este momento
+
+- intent: agradecimiento
+  examples: |
+    - Gracias por tu ayuda
+    - Aprecio que estés aquí para mí
+    - Estoy agradecido por este servicio
+    - Gracias por escucharme
+    - Agradezco tu orientación
+    - Gracias por brindar apoyo
+    - Estoy agradecido por contar con este recurso
+    - Gracias por estar disponible
+
+- intent: despedida
+  examples: |
+    - Adiós
+    - Hasta luego
+    - Nos vemos más tarde
+    - Cuídate
+    - Que tengas un buen día
+    - Hasta pronto
+    - Adiós por ahora
+    - Nos hablamos después
+
+- intent: ayuda
+  examples: |
+    - ¿Cómo puedes ayudarme?
+    - Necesito asistencia
+    - ¿Qué servicios ofreces?
+    - ¿Puedes darme algún consejo?
+    - ¿Cómo funciona este servicio?
+    - ¿Puedes proporcionar recursos útiles?
+    - Estoy buscando orientación
+    - ¿Puedes darme información útil?
+    - Necesito apoyo emocional
+
+- intent: sentirse_bien
+  examples: |
+    - Quiero sentirme mejor
+    - Necesito mejorar mi estado de ánimo
+    - ¿Cómo puedo cuidar mi bienestar emocional?
+    - Estoy buscando actividades que me hagan sentir bien
+    - ¿Qué puedo hacer para reducir el estrés?
+    - Quiero adoptar hábitos saludables para mi mente
+    - ¿Hay consejos para mantener un estado de ánimo positivo?
+    - ¿Cómo puedo trabajar en mi salud mental?
+
+- intent: no_sabe
+  examples: |
+    - No sé cómo me siento
+    - Estoy confundido acerca de mis emociones
+    - No puedo identificar lo que estoy experimentando
+    - Siento un revoltijo de emociones
+    - Me siento perdido emocionalmente
+    - No comprendo lo que está pasando en mi mente
+    - No sé cómo expresar lo que siento
+    - Estoy desconcertado acerca de mi estado emocional
+    - No tengo claridad sobre mis emociones

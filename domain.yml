@@ -1,0 +1,56 @@
+version: "3.1"
+
+intents:
+  - saludar
+  - salud_mental
+  - expresar_emocion
+  - agradecimiento
+  - despedida
+  - ayuda
+  - sentirse_bien
+  - no_sabe
+  - usuario_Ansiedad
+
+responses:
+  utter_saludo:
+    - text: "¡Hola! ¿En qué puedo ayudarte?"
+
+  utter_salud_mental:
+    - text: "Entiendo que estás buscando apoyo para tu salud mental. Estoy aquí para ayudarte."
+
+  utter_agradecimiento:
+    - text: "De nada. Siempre estoy aquí para ayudar. ¿Hay algo más en lo que pueda apoyarte?"
+
+  utter_despedida:
+    - text: "Hasta luego. No dudes en volver si necesitas ayuda."
+
+  utter_ayuda:
+    - text: "Claro, puedo proporcionarte información útil. ¿En qué área específica necesitas ayuda?"
+
+  utter_sentirse_bien:
+    - text: "Es importante cuidar tu bienestar emocional. ¿Hay algo específico en lo que pueda ayudarte a sentirte mejor?"
+
+  utter_no_sabe:
+    - text: "Entiendo que puede ser difícil identificar tus emociones. ¿Te gustaría hablar más al respecto?"
+
+
+actions:
+  - utter_salud_mental
+  - utter_agradecimiento
+  - utter_despedida
+  - utter_ayuda
+  - utter_sentirse_bien
+  - utter_no_sabe
+  - action_detect_emotion
+  - utter_saludo
+  - action_emocion_ansiedad_repetida
+
+ 
+
+slots:
+  emocion_detectada:
+    type: text
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
